@@ -123,18 +123,12 @@ SSH into the control node and follow the steps below:
 
 BONUS:
 
-SSH into Machine: 
-* ssh azureuser@10.0.0.4
+| Purpose     | Command          | 
+|----------|---------------------|
+| SSH into Machine | ssh azureuser@10.0.0.4                  |
+| Locate Ansible Container | sudo docker container list -a                  |
+| Start Container | sudo docker start container_name                  |
+| Launch Container | sudo docker attach container_name                  |
+| List Containers | sudo docker ps -a                  |
 
-Locate Ansible Container:
-* sudo docker container list -a
-
-Start Container:
-* sudo docker start container_name
-
-Launch Container: 
-* sudo docker attach container_name
-
-Run Playbook:
-* ansible-playbook filebeat-playbook.yml
 
