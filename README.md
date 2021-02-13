@@ -129,6 +129,6 @@ BONUS:
 | Locate Ansible Container | sudo docker container list -a                  |
 | Start Container | sudo docker start container_name                  |
 | Launch Container | sudo docker attach container_name                  |
-| List Containers | sudo docker ps -a                  |
+| List Running Containers | sudo docker ps -a                  |
 
 
