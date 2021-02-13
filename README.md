@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![](https://github.com/dcuse13/ElkProject/blob/main/Images/CSDIAGRAM.png?raw=true)
+![](https://github.com/dcuse13/ElkProject/blob/main/Images/CSDIAGRAM%20(2).png?raw=true)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire>
 
