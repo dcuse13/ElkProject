@@ -120,3 +120,21 @@ SSH into the control node and follow the steps below:
 - Copy the filebeat-config.yml file to filebeat-playbook.yml.
 - Update the filebeat-playbook.yml file to include...
 - Run the playbook, and navigate to http://104.209.128.31:5601/app/kibana#/home to check that the installation worked as expected.
+
+BONUS:
+
+SSH into Machine: 
+* ssh azureuser@10.0.0.4
+
+Locate Ansible Container:
+* sudo docker container list -a
+
+Start Container:
+* sudo docker start container_name
+
+Launch Container: 
+* sudo docker attach container_name
+
+Run Playbook:
+* ansible-playbook filebeat-playbook.yml
+
