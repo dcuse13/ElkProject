@@ -2,12 +2,18 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![](images/CSDIAGRAM.png)
+![](https://github.com/dcuse13/ElkProject/blob/main/Images/CSDIAGRAM.png?raw=true)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire>
 
-  * [Filebeat Playbook](Ansible/Filebeat Playbook)
-  * [Metricbeat Playbook](Ansible/Metricbeat Playbook)
+  * [Ansible Playbook](https://github.com/dcuse13/ElkProject/blob/main/Ansible/Ansible%20Playbook)
+  * [Ansible Config](https://github.com/dcuse13/ElkProject/blob/main/Ansible/Ansible%20Config)
+  * [Ansible Hosts](https://github.com/dcuse13/ElkProject/blob/main/Ansible/hosts) 
+  * [Filebeat Playbook](https://github.com/dcuse13/ElkProject/blob/main/Ansible/Filebeat%20Playbook)
+  * [Filebeat Config](https://github.com/dcuse13/ElkProject/blob/main/Ansible/Filebeat%20Config)
+  * [Metricbeat Playbook](https://github.com/dcuse13/ElkProject/blob/main/Ansible/Metricbeat%20Playbook)
+  * [Metricbeat Config](https://github.com/dcuse13/ElkProject/blob/main/Ansible/Metricbeat%20config)
+  * [ELK Install](https://github.com/dcuse13/ElkProject/blob/main/Ansible/InstallElk)
 
 This document contains the following details:
 - Description of the Topologu
